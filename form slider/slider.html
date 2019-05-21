@@ -1,0 +1,215 @@
+<html>
+    <head>
+        <title></title>
+        <!-- <link type="text/css" rel="stylesheet" href="css/main.css">  -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+        <link type="text/css" rel="stylesheet" href="css/stud_reg.css"  media="screen,projection"/>
+        
+    </head>
+    <body>
+    <div id="slider">
+        <div class="slide active">
+            <div class="row">
+                <div class="col s12 m6">
+                  <div class="card">
+                    <div class="card-content white-text">
+                      <span class="card-title center"><b>Basic details</b></span>
+                      <div class="row">
+                        <form class="pure-form" action="">
+                        <div class="input-field col s4">
+                            <input  id="first_name" type="text" class="validate" required>
+                            <label for="first_name">First Name</label>
+                        </div>
+                        <div class="input-field col s4">
+                            <input  id="middle_name" type="text" class="validate" required>
+                            <label for="middle_name">Middle Name</label>
+                        </div>
+                        <div class="input-field col s4">
+                            <input  id="last_name" type="text" class="validate" required>
+                            <label for="last_name">Last Name</label>
+                        </div>
+                        <div class="input-field col s12">
+                            <input  id="Email ID" type="email" class="validate" required>
+                            <label for="Email ID">Email ID</label>
+                        </div>
+                        <div class="input-field col s12">
+                          <input  id="tel" type="tel" class="validate" required maxlength="10" onkeypress="return event.charCode >= 48 && event.charCode <= 57">
+                          <label for="Mobile No">Mobile No</label>
+                      </div>
+                        <div class="input-field col s6">
+                            <input  id="password" type="password" class="validate" required>
+                            <label for="Password">Password</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input id="confirm_password" type="password" class="validate" required>
+                            <label for="confirm_password">Confirm Password</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <select>
+                              <option value="" disabled selected>Select Your Gender</option>
+                              <option value="1">Female</option>
+                              <option value="2">Male</option>
+                            </select>
+                            <label>Gender</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input id="DOB" type="date" class="validate" required>
+                            <!-- <label for="DOB">DOB</label> -->
+                        </div>
+                        <div class="input-field col s6">
+                            <input id="first_name" type="text" class="validate"required>
+                            <label for="first_name">City</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input id="Pincode" type="text" class="validate"required maxlength="6 "onkeypress="return event.charCode >= 48 && event.charCode <= 57">
+                            <label for="Pincode">Pincode</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input id="State" type="text" class="validate"required>
+                            <label for="State">State</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input id="Country" type="text" class="validate"required>
+                            <label for="Country">Country</label>
+                        </div>
+                      </form>
+                    </div>
+                    <center>
+                      <a class="waves-effect waves-light btn">Submit</a>
+                  </center>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="slide">
+            <div class="row">
+                <div class="col s12 m6">
+                  <div class="card">
+                    <div class="card-content white-text">
+                      <span class="card-title center"><b>Acadamic details</b></span>
+                      <div class="row">
+                        <div class="input-field col s6">
+                            <input id="fname" type="text" name="sfirstname" class="validate" required="%" maxlength="3" onkeypress="return event.charCode >= 48 && event.charCode <= 57" required>
+                            <label for="name">SSC %</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input id="fname" type="text" name="sfirstname" class="validate" required="%"
+                            maxlength="3" onkeypress="return event.charCode >= 48 && event.charCode <= 57" required>
+                            <label for="name">HSC %</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <select required>
+                              <option value="" disabled selected>Select Your Stream</option>
+                              <option value="1">Arts</option>
+                              <option value="2">Commerce</option>
+                              <option value="3">Science</option>
+                            </select>
+                            <label>Stream</label>
+                          </div>
+                        <div class="input-field col s6">
+                            <input id="fname" type="text" name="sfirstname" class="validate" required>
+                            <label for="name">Entrance Exam(If applicable)</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input id="fname" type="text" name="sfirstname" class="validate" required onkeypress="return event.charCode >= 48 && event.charCode <= 57">
+                            <label for="name">Marks Obtained</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input id="fname" type="text" name="sfirstname" class="validate" required onkeypress="return event.charCode >= 48 && event.charCode <= 57">
+                            <label for="name"> Mark Out off</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input id="fname" type="text" name="sfirstname" class="validate" required>
+                            <label for="name">University</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input id="fname" type="text" name="sfirstname" class="validate" required>
+                            <label for="name">Country</label>
+                        </div>
+                    </div>
+                    <center>
+                      <a class="waves-effect waves-light btn">Submit</a>
+                  </center>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="slide">
+            <div class="row">
+                <div class="col s12 m6">
+                  <div class="card">
+                    <div class="card-content white-text">
+                      <span class="card-title center"><b>Term & Condition</b></span>
+                      <li></li>
+                      <li></li>
+                      <li></li>
+                      <li></li><br>
+                      <p>
+                        <input type="checkbox" id="test5" />
+                        <label for="test5">The above information you give is.... </label>
+                      </p>
+                    </div>
+                    <center>
+                        <a class="waves-effect waves-light btn">Submit</a>
+                    </center><br>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+    <p id="left-arrow">LEFT</p>
+    <p id="right-arrow">RIGHT</p>
+    
+    
+    
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+        <script>
+            $('#right-arrow').click(function(){
+                var currentSlide = $('.slide.active');
+                var nextSlide = currentSlide.next();
+
+                currentSlide.fadeOut(300).removeClass('active');
+                nextSlide.fadeIn(300).addClass('active');
+                if(nextSlide.length == 0){
+                    $('.slide').first().fadeIn(300).addClass('active');
+                }
+            });
+            $('#left-arrow').click(function(){
+                 var currentSlide = $('.slide.active');
+                 var prevSlide = currentSlide.prev();
+                 currentSlide.fadeOut(300).removeClass('active');
+                 prevSlide.fadeIn(300).addClass('active');
+                 if(prevSlide.length == 0){
+                    $('.slide').last().fadeIn(300).addClass('active');
+                }
+            });
+        </script>
+        <script>
+            var password = document.getElementById("password")
+          , confirm_password = document.getElementById("confirm_password");
+        
+        function validatePassword(){
+          if(password.value != confirm_password.value) {
+            confirm_password.setCustomValidity("Passwords Don't Match");
+          } else {
+            confirm_password.setCustomValidity('');
+          }
+        }
+        
+        password.onchange = validatePassword;
+        confirm_password.onkeyup = validatePassword;
+        
+        </script>
+       <script>
+        $(document).ready(function() {
+    $('select').material_select();
+  });
+      </script>
+    </body>
+</html>

@@ -1,0 +1,94 @@
+.[placeholder]{
+    color:white;
+  }
+  input[type=text],input[type=password],input[type=tel],input[type=email]{
+    color:white;
+   }
+  .input-field label{
+    color:white;
+  }
+  .input-field label .active{
+    color:white;
+  }
+  .input-field .prefix.active {
+  color: white;
+  }
+  input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea {
+    border-bottom: 1px solid white;
+  }
+  label{
+    color:#fff;
+  }
+  input:not([type]):focus:not([readonly]) + label,
+  input[type=text]:not(.browser-default):focus:not([readonly]) + label,
+  input[type=password]:not(.browser-default):focus:not([readonly]) + label,
+  input[type=email]:not(.browser-default):focus:not([readonly]) + label,
+  input[type=url]:not(.browser-default):focus:not([readonly]) + label,
+  input[type=time]:not(.browser-default):focus:not([readonly]) + label,
+  input[type=date]:not(.browser-default):focus:not([readonly]) + label,
+  input[type=datetime]:not(.browser-default):focus:not([readonly]) + label,
+  input[type=datetime-local]:not(.browser-default):focus:not([readonly]) + label,
+  input[type=tel]:not(.browser-default):focus:not([readonly]) + label,
+  input[type=number]:not(.browser-default):focus:not([readonly]) + label,
+  input[type=search]:not(.browser-default):focus:not([readonly]) + label,
+  textarea.materialize-textarea:focus:not([readonly]) + label {
+    color: white;
+  }
+  input:not([type]):focus:not([readonly]),
+  input[type=text]:not(.browser-default):focus:not([readonly]),
+  input[type=password]:not(.browser-default):focus:not([readonly]),
+  input[type=email]:not(.browser-default):focus:not([readonly]),
+  input[type=url]:not(.browser-default):focus:not([readonly]),
+  input[type=time]:not(.browser-default):focus:not([readonly]),
+  input[type=date]:not(.browser-default):focus:not([readonly]),
+  input[type=datetime]:not(.browser-default):focus:not([readonly]),
+  input[type=datetime-local]:not(.browser-default):focus:not([readonly]),
+  input[type=tel]:not(.browser-default):focus:not([readonly]),
+  input[type=number]:not(.browser-default):focus:not([readonly]),
+  input[type=search]:not(.browser-default):focus:not([readonly]),
+  textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid white;
+    -webkit-box-shadow: 0 1px 0 0 white;
+    box-shadow: 0 1px 0 0 white;
+  }
+  [type="checkbox"]+label:before, [type="checkbox"]:not(.filled-in)+label:after {
+     border: 2px solid #fff;
+    
+}
+[type="checkbox"]:checked+label:before {
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  
+}
+body{
+  margin:0;
+  padding:0;
+}
+
+#left-arrow{
+  position: absolute;
+  left:30px;
+  font-size: 22px;
+  cursor: pointer;
+}
+#right-arrow{
+  position: absolute;
+  right:30px;
+  font-size: 22px;
+  cursor: pointer;
+}
+.slide{
+  position: absolute;
+  width: 100%;
+  height:100%;
+ 
+  display:none;
+}
+.slide.active{
+  display: block;
+}
+.card{
+  left: 65%;
+  width:70%;
+  background: linear-gradient(to bottom right, #236add, #111e6c);
+}

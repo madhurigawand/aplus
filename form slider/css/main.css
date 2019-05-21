@@ -1,0 +1,25 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+#left-arrow{
+    position: absolute;
+    left:30px;
+    font-size: 22px;
+    cursor: pointer;
+}
+#right-arrow{
+    position: absolute;
+    right:30px;
+    font-size: 22px;
+    cursor: pointer;
+}
+.slide{
+    position: absolute;
+    
+    display:none;
+}
+.slide.active{
+    display: block;
+}
